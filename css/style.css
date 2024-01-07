@@ -1,0 +1,30 @@
+input {
+  margin-top: 10px;
+  transition: all 1ms;
+}
+input:focus {
+  transform: scale(1.02);
+  border: none;
+}
+#total {
+  background-color: red;
+  border-radius: 4px;
+  cursor: default;
+  border: none;
+}
+#total::before {
+  content: "total :";
+}
+.price input {
+  width: 21% !important;
+  border-radius: 5px;
+}
+#SearchTitle,
+#SearchCategory {
+  width: 48%;
+  margin: 0;
+}
+
+#search {
+  letter-spacing: 3px;
+}
